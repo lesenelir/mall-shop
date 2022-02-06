@@ -17,50 +17,50 @@
 
   <div class="icons">
     <!--<editor-fold desc="正常HTML结构书写">-->
-<!--    <div class="icons_item">-->
-<!--      <img src="http://www.dell-lee.com/imgs/vue3/超市.png" alt="" class="icons_item_img">-->
-<!--      <p class="icons_item_desc">超市便利</p>-->
-<!--    </div>-->
-<!--    <div class="icons_item">-->
-<!--      <img src="http://www.dell-lee.com/imgs/vue3/菜市场.png" alt="" class="icons_item_img">-->
-<!--      <p class="icons_item_desc">菜市场</p>-->
-<!--    </div>-->
-<!--    <div class="icons_item">-->
-<!--      <img src="http://www.dell-lee.com/imgs/vue3/水果店.png" alt="" class="icons_item_img">-->
-<!--      <p class="icons_item_desc">水果店</p>-->
-<!--    </div>-->
-<!--    <div class="icons_item">-->
-<!--      <img src="http://www.dell-lee.com/imgs/vue3/鲜花.png" alt="" class="icons_item_img">-->
-<!--      <p class="icons_item_desc">鲜花绿植</p>-->
-<!--    </div>-->
-<!--    <div class="icons_item">-->
-<!--      <img src="http://www.dell-lee.com/imgs/vue3/医药健康.png" alt="" class="icons_item_img">-->
-<!--      <p class="icons_item_desc">医药健康</p>-->
-<!--    </div>-->
-<!--    <div class="icons_item">-->
-<!--      <img src="http://www.dell-lee.com/imgs/vue3/家居.png" alt="" class="icons_item_img">-->
-<!--      <p class="icons_item_desc">家居时尚</p>-->
-<!--    </div>-->
-<!--    <div class="icons_item">-->
-<!--      <img src="http://www.dell-lee.com/imgs/vue3/蛋糕.png" alt="" class="icons_item_img">-->
-<!--      <p class="icons_item_desc">烘焙蛋糕</p>-->
-<!--    </div>-->
-<!--    <div class="icons_item">-->
-<!--      <img src="http://www.dell-lee.com/imgs/vue3/签到.png" alt="" class="icons_item_img">-->
-<!--      <p class="icons_item_desc">签到</p>-->
-<!--    </div>-->
-<!--    <div class="icons_item">-->
-<!--      <img src="http://www.dell-lee.com/imgs/vue3/大牌免运.png" alt="" class="icons_item_img">-->
-<!--      <p class="icons_item_desc">大牌免运</p>-->
-<!--    </div>-->
-<!--    <div class="icons_item">-->
-<!--      <img src="http://www.dell-lee.com/imgs/vue3/红包.png" alt="" class="icons_item_img">-->
-<!--      <p class="icons_item_desc">红包套餐</p>-->
-<!--    </div>-->
+    <!--    <div class="icons_item">-->
+    <!--      <img src="http://www.dell-lee.com/imgs/vue3/超市.png" alt="" class="icons_item_img">-->
+    <!--      <p class="icons_item_desc">超市便利</p>-->
+    <!--    </div>-->
+    <!--    <div class="icons_item">-->
+    <!--      <img src="http://www.dell-lee.com/imgs/vue3/菜市场.png" alt="" class="icons_item_img">-->
+    <!--      <p class="icons_item_desc">菜市场</p>-->
+    <!--    </div>-->
+    <!--    <div class="icons_item">-->
+    <!--      <img src="http://www.dell-lee.com/imgs/vue3/水果店.png" alt="" class="icons_item_img">-->
+    <!--      <p class="icons_item_desc">水果店</p>-->
+    <!--    </div>-->
+    <!--    <div class="icons_item">-->
+    <!--      <img src="http://www.dell-lee.com/imgs/vue3/鲜花.png" alt="" class="icons_item_img">-->
+    <!--      <p class="icons_item_desc">鲜花绿植</p>-->
+    <!--    </div>-->
+    <!--    <div class="icons_item">-->
+    <!--      <img src="http://www.dell-lee.com/imgs/vue3/医药健康.png" alt="" class="icons_item_img">-->
+    <!--      <p class="icons_item_desc">医药健康</p>-->
+    <!--    </div>-->
+    <!--    <div class="icons_item">-->
+    <!--      <img src="http://www.dell-lee.com/imgs/vue3/家居.png" alt="" class="icons_item_img">-->
+    <!--      <p class="icons_item_desc">家居时尚</p>-->
+    <!--    </div>-->
+    <!--    <div class="icons_item">-->
+    <!--      <img src="http://www.dell-lee.com/imgs/vue3/蛋糕.png" alt="" class="icons_item_img">-->
+    <!--      <p class="icons_item_desc">烘焙蛋糕</p>-->
+    <!--    </div>-->
+    <!--    <div class="icons_item">-->
+    <!--      <img src="http://www.dell-lee.com/imgs/vue3/签到.png" alt="" class="icons_item_img">-->
+    <!--      <p class="icons_item_desc">签到</p>-->
+    <!--    </div>-->
+    <!--    <div class="icons_item">-->
+    <!--      <img src="http://www.dell-lee.com/imgs/vue3/大牌免运.png" alt="" class="icons_item_img">-->
+    <!--      <p class="icons_item_desc">大牌免运</p>-->
+    <!--    </div>-->
+    <!--    <div class="icons_item">-->
+    <!--      <img src="http://www.dell-lee.com/imgs/vue3/红包.png" alt="" class="icons_item_img">-->
+    <!--      <p class="icons_item_desc">红包套餐</p>-->
+    <!--    </div>-->
     <!--</editor-fold>-->
     <div class="icons_item" v-for="item in iconsList" :key="item.desc">
       <img :src="`http://www.dell-lee.com/imgs/vue3/${item.imgName}.png`" alt="" class="icons_item_img">
-      <p class="icons_item_desc">{{item.desc}}</p>
+      <p class="icons_item_desc">{{ item.desc }}</p>
     </div>
   </div>
 

@@ -45,16 +45,16 @@
     <div class="nearby_item" v-for="item in nearbyList" :key="item.id">
       <img :src="item.imgUrl" alt="" class="nearby_item_img">
       <div class="nearby_content">
-        <div class="nearby_content_title">{{item.title}}</div>
+        <div class="nearby_content_title">{{ item.title }}</div>
         <div class="nearby_content_tags">
           <span class="nearby_content_tag"
                 v-for="(innerItem, innerIndex) in item.tags"
                 :key="innerIndex"
           >
-            {{innerItem}}
+            {{ innerItem }}
           </span>
         </div>
-        <p class="nearby_content_highlight">{{item.desc}}</p>
+        <p class="nearby_content_highlight">{{ item.desc }}</p>
       </div>
     </div>
   </div>
